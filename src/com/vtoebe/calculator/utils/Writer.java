@@ -18,5 +18,5 @@ public class Writer {
     public String multResult(float multResult){
         return "Multiplication: " + multResult + "\n";
     }
-    public String divResult(Float divResult){ return divResult == null? "Can't divide by zero!" : "Sum: " + divResult + "\n"; }
+    public String divResult(Float divResult){ return divResult == null? "Division: can't divide by zero!" : "Division: " + divResult + "\n"; }
 }
